@@ -1,0 +1,50 @@
+.scrollpage-container{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100%;
+    font-size: .16rem;
+
+    .sp-top{
+        width: 100%;
+        height: 1rem;
+        background-color: green;
+
+        .btn-export{
+            border: 1px solid salmon;
+            color: salmon;
+            width: .9rem;
+            height: .4rem;
+            text-align: center;
+            line-height: .4rem;
+            cursor: pointer;
+            &:hover{
+                color: red;
+            }
+        }
+    }
+    .sp-bot{
+        // width: 3rem;
+        width: 100%;
+        height: calc(100% - 1rem);
+        display: flex;
+        flex-direction: row;
+
+       .sp-bot-left{
+            width: 2.5rem;
+            height: 100%;
+            background: greenyellow;
+        }
+        .sp-bot-right{
+            width: calc(100% - 2.9rem);
+            height: calc(100% -  .4rem);;
+            margin-top: .2rem;
+            margin-left: .2rem;
+
+            .webmap{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
