@@ -7,7 +7,7 @@ import "./assets/less/App.less";
 import { ScrollPage } from './pages/ScrollPage/ScrollPage';
 // import Aqicn from './pages/Aqicn/Aqicn';
 
-// 懒加载各个页面
+// 懒加载各个页面 test
 // import FdHome from "./pages/FdHome/FdHome";
 // const ScrollPage = WithLazyLoad(lazy(async () => import("./pages/ScrollPage/ScrollPage")));
 // const CreateScene = WithLazyLoad(lazy(async () => import("./pages/ch01CreateScene/CreateScene")));
@@ -21,8 +21,7 @@ function App() {
   useEffect(() => {
     window.onresize = setHtmlFontSize;
     setHtmlFontSize();
-
-    // 
+    console.log("test");
   }, [])
 
   // 调整字体大小
